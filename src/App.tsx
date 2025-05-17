@@ -4,7 +4,6 @@ import Layout from './layouts/Layout';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TimelinePage from './pages/TimelinePage';
-import HistoryPage from './pages/HistoryPage';
 import ExhibitionsPage from './pages/ExhibitionsPage';
 import DocumentsPage from './pages/DocumentsPage';
 import ConferencesPage from './pages/ConferencesPage';
@@ -20,7 +19,6 @@ const App: React.FC = () => {
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="timeline" element={<TimelinePage />} />
-        <Route path="history" element={<HistoryPage />} />
         <Route path="exhibitions" element={<ExhibitionsPage />} />
         <Route path="documents" element={<DocumentsPage />} />
         <Route path="conferences" element={<ConferencesPage />} />
