@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TimelinePage from './pages/TimelinePage';
 import ExhibitionsPage from './pages/ExhibitionsPage';
-import DocumentsPage from './pages/DocumentsPage';
+import DocumentsPage from './pages/documentsPage';
 import ConferencesPage from './pages/ConferencesPage';
 import NewsPage from './pages/NewsPage';
 import TeamPage from './pages/TeamPage';
